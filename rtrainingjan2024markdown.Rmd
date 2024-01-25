@@ -1,0 +1,30 @@
+#Report 1: Why I deserve a hot chocolate, even thoguh I have already had one this morning
+
+Sometimes in life you have a hot chocolate in the morning, and then by the afternoon you want another one. 
+You may ask yourself, can I do that? Is that allowed? 
+
+We rarely ask the same of coffee or tea; I've had a cup of tea this morning too but I wouldn't think twice about having a second one. 
+
+![Alt Text](https://bellyfull.net/wp-content/uploads/2021/11/Slow-Cooker-Hot-Chocolate-Hot-Chocolate-blog-2.jpg)
+
+Why then, do I question whether I can have a second hot chocolate? 
+
+Let us examine the evidence. 
+
+```{r, echo=FALSE, fig.cap="Happiness vs No. of Hot Chocs"}
+myhappiness<-runif(50,2,8)
+plot(myhappiness, exp(myhappiness))
+
+```
+
+As the above graph shows, my happiness in life will exponentially increase as the number of hot chocolates consumed increases. 
+
+```{r, echo=FALSE, fig.cap="Sadness vs Time Since Last Hot Choc"}
+unendingsadness<-seq(from=10, to=1, length=100)
+plot(unendingsadness, exp(unendingsadness))
+
+```
+
+In conclusion, I deserve more hot chocolate. 
+
+Published in Science and Nature, 2024 

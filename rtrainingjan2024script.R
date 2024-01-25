@@ -16,3 +16,6 @@ print(34875293475874/294785847)
 #*
 #*
 #*
+
+unendingsadness<-seq(from=10, to=1, length=100)
+plot(unendingsadness, exp(unendingsadness))
