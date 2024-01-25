@@ -21,12 +21,14 @@ plot(myhappiness, numberofhotchocolates)
 As the above graph shows, my happiness in life will exponentially increase as the number of hot chocolates consumed increases. 
 
 ```{r, echo=FALSE, fig.cap="Sadness vs Time Since Last Hot Choc"}
-undendingsadness<-seq(0,10, length=100)
-timesincelasthotchocolates<-seq(0,100, length=100)
+unendingsadness<-seq(10,0, length=100)
+timesincelasthotchocolates<-seq(10,0, length=100)
 plot(unendingsadness, timesincelasthotchocolates)
 
 ```
 
-In conclusion, I deserve more hot chocolate. 
+However, as time since my last hot chocolate increases, so too does unending sadness. 
+
+In conclusion, I deserve more hot chocolate, and will be going to buy one imminently. 
 
 Published in Science and Nature, 2024 

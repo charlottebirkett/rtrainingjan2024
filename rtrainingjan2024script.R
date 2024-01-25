@@ -20,8 +20,8 @@ print(34875293475874/294785847)
 unendingsadness<-seq(from=10, to=1, length=100)
 plot(unendingsadness, exp(unendingsadness))
 
-undendingsadness<-seq(0,10, length=100)
-timesincelasthotchocolates<-seq(0,100, length=100)
+undendingsadness<-seq(10,0, length=100)
+timesincelasthotchocolates<-seq(10,0, length=100)
 plot(unendingsadness, timesincelasthotchocolates)
 
 myhappiness<-seq(50,2,length=100)
