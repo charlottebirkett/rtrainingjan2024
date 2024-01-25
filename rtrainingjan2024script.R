@@ -27,3 +27,5 @@ plot(unendingsadness, timesincelasthotchocolates)
 myhappiness<-seq(50,2,length=100)
 numberofhotchocolates<-seq(50,2,length=100)
 plot(myhappiness, numberofhotchocolates)
+
+
