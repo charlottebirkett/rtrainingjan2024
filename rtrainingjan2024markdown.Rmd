@@ -29,6 +29,20 @@ plot(unendingsadness, timesincelasthotchocolates)
 
 However, as time since my last hot chocolate increases, so too does unending sadness. 
 
-In conclusion, I deserve more hot chocolate, and will be going to buy one imminently. 
+In conclusion, I deserve more hot chocolate, and will be going to buy one imminently. Here is a map of all the places I would buy a hot chocolate if I went on a round the world trip. 
+
+```{r, echo=FALSE, message=FALSE, fig.cap="All the places in the world I would buy hot chocolate"}
+library(ggplot2)
+library(dplyr)
+library(maps)
+
+world1 <- map_data("world")
+data <- world.cities
+ggplot() +
+  geom_polygon(data = world1, aes(x=long, y = lat, group = group), fill="grey", alpha=0.4) +
+  geom_point( data=data, aes(x=long, y=lat)) +
+  theme_void() + coord_map() 
+```
+
 
 Published in Science and Nature, 2024 
